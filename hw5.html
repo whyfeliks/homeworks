@@ -1,0 +1,39 @@
+<script>
+    let a = +prompt('Число 1');
+    let b = +prompt('Число 2');
+    let operation = prompt('Введите знак операции');
+    let s = 0;
+    function sum(a, b) {
+        s = a + b;
+        return s
+    }
+    function minus(a, b) {
+        s = a - b;
+        return s
+    }
+    function multiplication(a, b) {
+        s = a * b;
+        return s
+    }
+    function division(a, b) {
+        s = a / b;
+        return s
+    }
+    function mathOperation(a, b, operation) {
+        switch (operation) {
+            case '+':
+                console.log(sum(a, b));
+                break
+            case '-':
+                console.log(minus(a, b));
+                break
+            case '*':
+                console.log(multiplication(a, b));
+                break
+            case '/':
+                console.log(division(a, b));
+                break
+        }
+    }
+    mathOperation(a, b, operation)
+</script>
