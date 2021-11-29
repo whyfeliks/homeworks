@@ -1,0 +1,28 @@
+.mainmenu {
+background-color: gainsboro;
+width: 100%;
+}
+
+.cart-button {
+background-color: blanchedalmond;
+color: black;
+margin-left: 90%;
+}
+
+.goods-list {
+    background-color: #e1e1e1;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.goods-item {
+    border: 1px solid black;
+    width: 20%;
+    text-align: center;
+    margin-top: 25px;
+    color: black;
+    background-color: gainsboro;
+}
